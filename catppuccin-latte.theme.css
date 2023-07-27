@@ -2371,6 +2371,10 @@ span[class*=channelMention]:hover,
   margin-top: 0px;
 }
 
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3):hover::after {
+  background-color: #ffffff;
+}
+
 .typeWindows-2-g3UY > div:hover::after {
   transform: scale(1.1);
 }
