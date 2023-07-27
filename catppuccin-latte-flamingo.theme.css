@@ -2362,6 +2362,7 @@ span[class*=channelMention]:hover,
 }
 
 .withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3)::after {
+  content: "";
   background-color: var(--maximize-button-color) !important;
   margin-top: 0px;
 }
@@ -2372,6 +2373,8 @@ span[class*=channelMention]:hover,
 }
 
 .withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3):hover::after {
+  content: "";
+  /* Set the content property to generate the pseudo-element */
   background-color: #ffffff;
 }
 
