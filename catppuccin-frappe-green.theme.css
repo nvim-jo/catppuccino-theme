@@ -2130,6 +2130,11 @@ span[class*=channelMention]:hover,
   background-color: #ffffff;
 }
 
+.typeWindows-2-g3UY > .winButtonMinMax-3RsPUg:nth-child(3) {
+  content: "";
+  background-color: #ffffff;
+}
+
 .typeWindows-2-g3UY > div:hover::after {
   transform: scale(1.1);
 }
