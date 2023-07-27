@@ -2378,9 +2378,9 @@ span[class*=channelMention]:hover,
   background-color: #ffffff;
 }
 
-.typeWindows-2-g3UY > .winButtonMinMax-3RsPUg:nth-child(3) {
+.typeWindows-2-g3UY > .winButtonMinMax-3RsPUg:nth-child(3):hover::after {
   content: "";
-  background-color: #ffffff;
+  background-color: #333333;
 }
 
 .typeWindows-2-g3UY > div:hover::after {
