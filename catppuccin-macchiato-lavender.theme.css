@@ -2110,18 +2110,16 @@ span[class*=channelMention]:hover,
 }
 
 .withFrame-2dL45i .winButtonClose-3Q8ZH5::after {
-  content: "";
-  background-color: var(--default-color);
+  background-color: var(--default-color) !important;
   margin-top: 0px;
 }
 
 .withFrame-2dL45i .winButtonClose-3Q8HZ5:hover::after {
-  background-color: var(--close-button-color);
+  background-color: var(--close-button-color) !important;
 }
 
 .withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3)::after {
-  background-color: var(--default-color);
-  content: "";
+  background-color: var(--default-color) !important;
   margin-top: 0px;
 }
 
@@ -2130,8 +2128,7 @@ span[class*=channelMention]:hover,
 }
 
 .withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(4)::after {
-  content: "";
-  background-color: var(--default-color);
+  background-color: var(--default-color) !important;
   margin-top: 0px;
 }
 
