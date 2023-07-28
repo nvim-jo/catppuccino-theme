@@ -2357,33 +2357,33 @@ span[class*=channelMention]:hover,
   transition-duration: 200ms;
 }
 
-.withFrame-2dL45i .winButtonClose-3Q8ZH5 {
+.withFrame-2dL45i .winButtonClose-3Q8ZH5::after {
   content: "";
   background-color: var(--default-color);
   margin-top: 0px;
 }
 
-.withFrame-2dL45i .winButtonClose-3Q8HZ5:hover {
+.withFrame-2dL45i .winButtonClose-3Q8HZ5:hover::after {
   background-color: var(--close-button-color);
 }
 
-.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3) {
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3)::after {
   background-color: var(--default-color);
   content: "";
   margin-top: 0px;
 }
 
-.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3):hover {
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3):hover::after {
   background-color: var(--maximize-button-color) !important;
 }
 
-.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(4) {
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(4)::after {
   content: "";
   background-color: var(--default-color);
   margin-top: 0px;
 }
 
-.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(4):hover {
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(4):hover::after {
   background-color: var(--minimize-button-color) !important;
 }
 
