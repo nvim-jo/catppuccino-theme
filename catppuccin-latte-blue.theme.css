@@ -2322,7 +2322,7 @@ span[class*=channelMention]:hover,
   --minimize-button-color: #f7bc1bde;
   --maximize-button-color: #12db33de;
   --button-position: row-reverse;
-  --default-color: #838ba7;
+  --default-color: #838ba7de;
 }
 
 .withFrame-2dL45i {
@@ -2362,7 +2362,7 @@ span[class*=channelMention]:hover,
   margin-top: 0px;
 }
 
-.withFrame-2dL45i .winButtonClose-3Q8HZ5:hover::after {
+.withFrame-2dL45i .winButtonClose-3Q8ZH5:hover::after {
   background-color: var(--close-button-color) !important;
 }
 
