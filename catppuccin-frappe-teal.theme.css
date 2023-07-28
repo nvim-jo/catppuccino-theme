@@ -2109,16 +2109,12 @@ span[class*=channelMention]:hover,
 }
 
 .withFrame-2dL45i .winButtonClose-3Q8ZH5::after {
+  content: "";
   background-color: #ffffff;
   margin-top: 0px;
 }
 
-.withFrame-2dL45i .winButtonClose-3Q8ZH6:hover::after {
-  background-color: var(--close-button-color);
-}
-
 .withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3)::after {
-  content: "";
   background-color: var(--maximize-button-color) !important;
   margin-top: 0px;
 }
@@ -2128,10 +2124,8 @@ span[class*=channelMention]:hover,
   margin-top: 0px;
 }
 
-.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3):hover::after {
-  content: "";
-  /* Set the content property to generate the pseudo-element */
-  background-color: #ffffff;
+.typeWindows-2-g3UY > .winButtonClose-3Q8HZ5:hover::after {
+  background-color: var(--close-button-color) !important;
 }
 
 .typeWindows-2-g3UY > div:hover::after {
