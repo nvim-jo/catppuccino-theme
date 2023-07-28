@@ -2397,6 +2397,7 @@ span[class*=channelMention]:hover,
 }
 
 .wordmarkWindows-2dq6rw svg {
+  display: none;
   position: fixed;
   top: 4px;
   left: 50%;
