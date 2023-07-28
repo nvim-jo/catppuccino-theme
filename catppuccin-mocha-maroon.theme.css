@@ -2108,10 +2108,14 @@ span[class*=channelMention]:hover,
   transition-duration: 200ms;
 }
 
-.withFrame-2dL45i .winButtonClose-3Q8ZH5::after {
+.withFrame-2dL45i .winButtonClose-3Q8ZH5 {
   content: "";
   background-color: #ffffff;
   margin-top: 0px;
+}
+
+.withFrame-2dL45i .winButtonClose-3Q8HZ5:hover {
+  background-color: var(--close-button-color);
 }
 
 .withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3)::after {
@@ -2124,12 +2128,12 @@ span[class*=channelMention]:hover,
   margin-top: 0px;
 }
 
-.typeWindows-2-g3UY > .winButtonClose-3Q8HZ5:hover::after {
+.typeWindows-2-g3UY > .winButtonClose-3Q8ZH5:hover {
   background-color: var(--close-button-color) !important;
 }
 
-.typeWindows-2-g3UY > div:hover::after {
-  transform: scale(1.1);
+.typeWindows-2-g3UY > .winButtonClose-3Q8ZH5:hover::after {
+  background-color: var(--close-button-color) !important;
 }
 
 .withFrame-2dL45i .winButton-3UMjdg:nth-last-child(1) {
