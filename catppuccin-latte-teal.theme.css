@@ -2322,6 +2322,7 @@ span[class*=channelMention]:hover,
   --minimize-button-color: #f7bc1bde;
   --maximize-button-color: #12db33de;
   --button-position: row-reverse;
+  --default-color: #838ba7;
 }
 
 .withFrame-2dL45i {
@@ -2358,7 +2359,7 @@ span[class*=channelMention]:hover,
 
 .withFrame-2dL45i .winButtonClose-3Q8ZH5 {
   content: "";
-  background-color: #ffffff;
+  background-color: var(--default-color);
   margin-top: 0px;
 }
 
@@ -2366,22 +2367,24 @@ span[class*=channelMention]:hover,
   background-color: var(--close-button-color);
 }
 
-.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3)::after {
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3) {
+  background-color: var(--default-color);
+  content: "";
+  margin-top: 0px;
+}
+
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(3):hover {
   background-color: var(--maximize-button-color) !important;
+}
+
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(4) {
+  content: "";
+  background-color: var(--default-color);
   margin-top: 0px;
 }
 
-.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(4)::after {
+.withFrame-2dL45i .winButtonMinMax-3RsPUg:nth-child(4):hover {
   background-color: var(--minimize-button-color) !important;
-  margin-top: 0px;
-}
-
-.typeWindows-2-g3UY > .winButtonClose-3Q8ZH5:hover {
-  background-color: var(--close-button-color) !important;
-}
-
-.typeWindows-2-g3UY > .winButtonClose-3Q8ZH5:hover::after {
-  background-color: var(--close-button-color) !important;
 }
 
 .withFrame-2dL45i .winButton-3UMjdg:nth-last-child(1) {
